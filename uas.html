@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Kuliah Bahasa Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">E-Learning Bahasaku</div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#materi">Daftar Materi</a></li>
+                <li><a href="#about">Tentang</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Mata Kuliah Bahasa Indonesia</h1>
+            <p>Media pembelajaran daring untuk memahami kaidah, ejaan, dan penulisan karya ilmiah yang baik dan benar.</p>
+            <a href="#materi" class="btn">Lihat Materi</a>
+        </div>
+    </section>
+
+    <section id="materi" class="container">
+        <h2>Daftar Pertemuan</h2>
+        <div class="materi-grid" id="materi-container">
+            </div>
+    </section>
+
+    <div id="materiModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-judul">Judul Materi</h2>
+            <span id="modal-pertemuan" class="badge">Pertemuan X</span>
+            <div id="modal-isi" class="modal-body">
+                </div>
+        </div>
+    </div>
+
+    <footer id="about">
+        <p>&copy; 2026 E-Learning Bahasa Indonesia. Dibuat untuk Tugas UAS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
